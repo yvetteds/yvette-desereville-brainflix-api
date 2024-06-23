@@ -48,7 +48,7 @@ router
         id: uniqid(),
         title: req.body.title || "Untitled Video",
         channel: "Eloise Plaza",
-        image: "../public/images/Upload-video-preview.jpg",
+        image: "./public/images/Upload-video-preview.jpg",
         description: req.body.description || "Placeholder Description",
         views: "101,521",
         likes: "25,879",
