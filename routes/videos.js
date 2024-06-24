@@ -25,7 +25,6 @@ router
       // map over our JSON data (which is now an array of objects since we parsed it)
       const videosDataServed = videosData.map((video) => {
         // configure the specific data we want to respond with to the use that hits this endpoint
-        // in this case, when they hit the endpoint, they should just get a JSON response that includes the id and title
         return {
           id: video.id,
           title: video.title,
